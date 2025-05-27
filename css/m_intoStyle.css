@@ -175,6 +175,9 @@ footer ul li a {font-size: 14px;}
 footer address {font-style: normal; font-size: 14px; margin-top: 24px;}
 footer address p {font-size: 12px; margin-top: 18px; margin-bottom: 24px;}
 }
+@media (min-width: 500px) and (max-width: 768px) { /* tab */
+#main {background: url(../images/imageView.jpg) no-repeat top -120px left; background-size: 1000px auto;}
+} 
 
 @media (min-width:801px) { /* pc */
 .mob {display: none !important;}
